@@ -32,6 +32,15 @@ You will need `huggingface_hub` to download the GEOGloWS dataset:
 
     pip install huggingface_hub
 
+### Download experiment repo
+
+Once diffroute and optional dependencies are installed, download the current repository
+
+    git clone git@github.com:TristHas/diffrouteExperiments.git
+    cd diffrouteExperiments
+
+and open the relevant jupyter notebooks
+
 ---
 
 ## Data Download
