@@ -1,4 +1,5 @@
 from pathlib import Path
 
-MNT_DIR = "/data_prediction005/SYSTEM/prediction002/home/tristan/data/geoflow/runoff"
-DATA_ROOT = Path("/data_prediction005/SYSTEM/prediction002/home/tristan/data/geoflow/diffroute_exp")
+FILE_DIR = Path(__file__).resolve().parent.parent
+DATA_ROOT = FILE_DIR.parent / "data" / "geoglows"
+MNT_DIR = FILE_DIR.parent / "data" / "mnt"
